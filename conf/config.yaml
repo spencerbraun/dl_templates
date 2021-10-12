@@ -1,4 +1,7 @@
-db:
-  driver: mysql
-  user: omry
-  pass: secret
+defaults:
+  - model: transformers
+  - evaluate: default
+  - train: default
+
+hydra:
+  auto: False
